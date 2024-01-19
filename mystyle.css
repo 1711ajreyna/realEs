@@ -1,7 +1,7 @@
 /*global*/
 *{
-    margin:10px;
-    padding:5px;
+    margin:0px;
+    padding:0px;
     text-align: center;
 }
 body{
@@ -18,12 +18,14 @@ a{
     text-decoration: none;
     margin-right: 2px;
 }
+img{
+    max-width: 100%;
+}
 /*utilities*/
 .site-init{
     background-image: url(./img/header.jpg);
     background-size: cover;
-    height: 200px;
-    text-align: center;
+    height: 40vh;
     color: white;
 }
 
@@ -32,4 +34,33 @@ a{
     justify-content: space-around;
     align-items: center;
     height: 150px;
+}
+.flex-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+}
+.flex-header-v{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 3vh;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+/*about us*/
+.flex-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.house-item{
+
 }
