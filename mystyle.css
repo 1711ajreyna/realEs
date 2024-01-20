@@ -21,12 +21,21 @@ a{
 img{
     max-width: 100%;
 }
+.propdesc{
+    text-align: left;
+}
 /*utilities*/
 .site-init{
     background-image: url(./img/header.jpg);
     background-size: cover;
     height: 40vh;
     color: white;
+}
+.menu a{
+    margin-right: 20px;
+}
+.site-init p{
+font-size: 20px;
 }
 
 .header-flex{
@@ -48,11 +57,14 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 3vh;
+    height: 35vh;
 }
 .container{
     width:80%;
     margin: 0 auto;
+}
+.list{
+    border: 2px hidden rgb(233, 219, 219);
 }
 /*about us*/
 .flex-about{
@@ -62,5 +74,22 @@ img{
     align-items: center;
 }
 .house-item{
-
+    background-color:#dedede;
+    width: 400px;
+}
+.price{
+    color: green;
+    font-weight: bolder;
+}
+.btn{
+    display: block;
+    width: 300px;
+    background-color: rgb(233, 146, 17);
+    color: rgb(240, 232, 232);
+    text-decoration: none;
+    text-align: center;
+    text-transform: Uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 20px;
 }
