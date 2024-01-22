@@ -1,14 +1,18 @@
 /*global*/
+html{
+    font-size:62.5%;
+}    
 *{
-    margin:0px;
-    padding:0px;
+    margin:0rem;
+    padding:0rem;
     text-align: center;
 }
 body{
     font-family: arial;
 }
 p{
-    line-height: 2;
+    font-size: 1.6rem;
+    line-height: 1.5;
 }
 img{
     max-width: 100%;
@@ -16,13 +20,18 @@ img{
 a{
     color: white;
     text-decoration: none;
-    margin-right: 2px;
+    margin-right: 2rem;
 }
 img{
     max-width: 100%;
 }
 .propdesc{
     text-align: left;
+}
+h2{
+    text-align: center;
+    margin: 1rem 0;
+    font-size:2.4rem;
 }
 /*utilities*/
 .site-init{
@@ -32,17 +41,20 @@ img{
     color: white;
 }
 .menu a{
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 .site-init p{
-font-size: 20px;
+font-size: 2rem;
 }
-
+.site-contact{
+    background-color: black;
+    color:white;
+}
 .header-flex{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 150px;
+    height: 15rem;
 }
 .flex-header{
     display: flex;
@@ -51,7 +63,7 @@ font-size: 20px;
     align-items: center;
     width: 80%;
     margin: 0 auto;
-    height: 100px;
+    height: 10rem;
 }
 .flex-header-v{
     display: flex;
@@ -64,7 +76,7 @@ font-size: 20px;
     margin: 0 auto;
 }
 .list{
-    border: 2px hidden rgb(233, 219, 219);
+    border: 2rem hidden rgb(233, 219, 219);
 }
 /*about us*/
 .flex-about{
@@ -75,7 +87,7 @@ font-size: 20px;
 }
 .house-item{
     background-color:#dedede;
-    width: 400px;
+    width: 40rem;
 }
 .price{
     color: green;
@@ -83,13 +95,38 @@ font-size: 20px;
 }
 .btn{
     display: block;
-    width: 300px;
     background-color: rgb(233, 146, 17);
     color: rgb(240, 232, 232);
-    text-decoration: none;
     text-align: center;
     text-transform: Uppercase;
-    font-size: 14px;
-    margin-top: 10px;
-    padding: 20px;
+    font-size: 1.4rem;
+    margin: 1rem;
+    padding: 1rem 0; 
+}
+/*contact form*/
+.form-container{
+
+}
+fieldset{
+    padding: 1rem;
+}
+legend, label, input{
+    font-size: 1.6rem;
+}
+.input-container{
+    margin: 1rem;
+}
+.input-container, input,
+.input-container textarea{
+    width: 70%;
+    background-color:#dedede;
+    border:none;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+.input-container label{
+    display:inline-block;
+    width: 10rem;
+    text-align: right;
+    margin-right: 1rem;
 }
