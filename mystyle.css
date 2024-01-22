@@ -34,6 +34,26 @@ h2{
     font-size:2.4rem;
 }
 /*utilities*/
+.flex-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 10rem;
+}
+.flex-header-v{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35vh;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+/*header*/
 .site-init{
     background-image: url(./img/header.jpg);
     background-size: cover;
@@ -55,25 +75,6 @@ font-size: 2rem;
     justify-content: space-around;
     align-items: center;
     height: 15rem;
-}
-.flex-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    height: 10rem;
-}
-.flex-header-v{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 35vh;
-}
-.container{
-    width:80%;
-    margin: 0 auto;
 }
 .list{
     border: 2rem hidden rgb(233, 219, 219);
@@ -105,7 +106,8 @@ font-size: 2rem;
 }
 /*contact form*/
 .form-container{
-
+    outline: auto;
+    justify-content: flex-start;
 }
 fieldset{
     padding: 1rem;
@@ -114,9 +116,9 @@ legend, label, input{
     font-size: 1.6rem;
 }
 .input-container{
-    margin: 1rem;
+    margin: 2rem;
 }
-.input-container, input,
+.input-container input,
 .input-container textarea{
     width: 70%;
     background-color:#dedede;
@@ -129,4 +131,7 @@ legend, label, input{
     width: 10rem;
     text-align: right;
     margin-right: 1rem;
+}
+.contactLegend{
+    text-align: left;
 }

@@ -21,24 +21,67 @@
 
     <main class="container">
         <h2>Contact</h2>
-        <p>Fill in your information</p>
-        <div>
-            <label>Name:</label>
-            <input type="text" placeholder="type your name">
-        </div>
-        <div>
-            <label>Age:</label>
-            <input type="number" placeholder="type your age">
-        </div>
-        <div>
-            <label>Phone:</label>
-            <input type="tel" placeholder="type your phone number">
-        </div>
-        <div>
-            <label>Message:</label>
-            <textarea cols="30" rows="10"></textarea>
-        </div>
+        <p>Fill the next information</p>
 
+        <form class="container contactLegend">
+            <fieldset>
+                <legend class="contactLegend">Personal Information</legend>
+                <div class="input-container">
+                    <label>Name:</label>
+                    <input type="text" placeholder="type your name">
+                </div>
+                <div class="input-container">
+                    <label>Age:</label>
+                    <input type="number" placeholder="type your age">
+                </div>
+                <div class="input-container">
+                    <label>Phone:</label>
+                    <input type="tel" placeholder="type your phone number">
+                </div>
+                <div class="input-container">
+                    <label>Message:</label>
+                    <textarea cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+        </form>
+
+        <form class="container contactLegend">
+            <fieldset>
+                <legend class="contactLegend">Product Information</legend>
+                <div class="input-container">
+                    <label>Option:</label>
+                    <input type="option" placeholder="select your option">
+                </div>
+                <div class="input container">
+                    <label>NUMBER</label>
+                    <input type="number">
+                </div>
+            </fieldset>
+        </form>
+
+        <form class="container contactLegend">
+            <fieldset>
+                <legend class="contactLegend">Contact Information</legend>
+                <div class="input-container">
+                    <label>PHONE:</label>
+                    <input type="radio">
+                </div>
+                <div class="input-container">
+                    <label>EMAIL:</label>
+                    <input type="radio">
+                </div>
+                <P>If you would like to set an appointment then please select a date and time</P>
+                <div class="input-container">
+                    <label>DATE</label>
+                    <input type="date">
+                </div>
+                <div class="input-container">
+                    <label>TIME:</label>
+                    <input type="time">
+                </div>
+            </fieldset>
+        </form>
+        <button type="btn">Send</button>
     </main>
 </body>
 </html>
