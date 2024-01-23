@@ -53,6 +53,15 @@ h2{
     width:80%;
     margin: 0 auto;
 }
+@media(max-width: 768px){
+    .flex-header{
+        flex-direction: column;
+    }
+    .flex-header-v{
+        height:20vh;
+        text-align: center;
+    }
+}
 /*header*/
 .site-init{
     background-image: url(./img/header.jpg);
@@ -79,6 +88,14 @@ font-size: 2rem;
 .list{
     border: 2rem hidden rgb(233, 219, 219);
 }
+@media(max-width: 768px){
+    .site-init{
+        height: 22vh;
+    }
+    .site-init p{
+        font-size: 1.5rem;
+    }
+}
 /*about us*/
 .flex-about{
     display: flex;
@@ -86,13 +103,18 @@ font-size: 2rem;
     justify-content: space-between;
     align-items: center;
 }
+@media(max-width: 768){
+    .flexabout{
+        flex-direction: column;
+    }
+}
 .house-item{
     background-color:#dedede;
     width: 40rem;
 }
 .price{
-    color: green;
-    font-weight: bolder;
+    color: var(--secondary);
+    font-weight: bold;
 }
 .btn{
     display: block;
