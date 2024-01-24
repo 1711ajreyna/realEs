@@ -20,7 +20,8 @@ img{
 a{
     color: white;
     text-decoration: none;
-    margin-right: 2rem;
+    margin-right: 4rem;
+    font-size: 1.5rem;
 }
 img{
     max-width: 100%;
@@ -31,7 +32,10 @@ img{
 h2{
     text-align: center;
     margin: 1rem 0;
-    font-size:2.4rem;
+    font-size: 2.4rem;
+}
+li{
+    font-size: 1.5rem;
 }
 /*utilities*/
 .flex-header{
@@ -52,6 +56,16 @@ h2{
 .container{
     width:80%;
     margin: 0 auto;
+}
+.btn{
+    display: block;
+    background-color: rgb(233, 146, 17);
+    color: rgb(240, 232, 232);
+    text-align: center;
+    text-transform: Uppercase;
+    font-size: 1.4rem;
+    margin: 1rem;
+    padding: 1rem 0; 
 }
 @media(max-width: 768px){
     .flex-header{
@@ -79,15 +93,6 @@ font-size: 2rem;
     background-color: black;
     color:white;
 }
-.header-flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 15rem;
-}
-.list{
-    border: 2rem hidden rgb(233, 219, 219);
-}
 @media(max-width: 768px){
     .site-init{
         height: 22vh;
@@ -96,6 +101,10 @@ font-size: 2rem;
         font-size: 1.5rem;
     }
 }
+
+.list{
+    border: 2rem hidden rgb(233, 219, 219);
+}
 /*about us*/
 .flex-about{
     display: flex;
@@ -103,7 +112,7 @@ font-size: 2rem;
     justify-content: space-between;
     align-items: center;
 }
-@media(max-width: 768){
+@media(max-width: 768px){
     .flexabout{
         flex-direction: column;
     }
@@ -116,16 +125,6 @@ font-size: 2rem;
     color: var(--secondary);
     font-weight: bold;
 }
-.btn{
-    display: block;
-    background-color: rgb(233, 146, 17);
-    color: rgb(240, 232, 232);
-    text-align: center;
-    text-transform: Uppercase;
-    font-size: 1.4rem;
-    margin: 1rem;
-    padding: 1rem 0; 
-}
 /*contact form*/
 .form-container{
     outline: auto;
@@ -134,7 +133,7 @@ font-size: 2rem;
 fieldset{
     padding: 1rem;
 }
-legend, label, input{
+legend,label,input{
     font-size: 1.6rem;
 }
 .input-container{
@@ -156,4 +155,23 @@ legend, label, input{
 }
 .contactLegend{
     text-align: left;
+}
+/*about page*/
+.card{
+    background-color: antiquewhite;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+#ul{
+    font-size: bold italic;
+}
+/*footer*/
+.footer{
+    position:relative;
+    bottom: 0;
+    padding:4rem;
+    text-align: center;
+    background: black;
+    margin-top: 4rem;
+    width: 100%;
 }
